@@ -1,5 +1,7 @@
 # Algorithm-Portfolio-Project
-An algorithm that finds the shortest path through a maze.
+This is a portfolio project for CS325: Analysis of Algorithms.
+
+The project is to design an algorithm that finds the shortest path through a maze. It runs in O(N*M) time complexity, where N is number of columns and M is number of rows of the input array.
 
 I designed this by implementing an algorithm that utilizes BFS to find the shortest distance from the starting point to the ending cell. I then used a queue to store cells to visit and a few 2D arrays to store the parent node of each cell, whether the cell has been visited or not, and the string direction taken to get to the cell. 
 
